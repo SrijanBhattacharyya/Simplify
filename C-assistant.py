@@ -27,7 +27,7 @@ def get_last_Q_no (WD: os.path) -> int:
         return max (Qs_done)
 
     except ValueError:
-        return 1
+        return 0
 
 
 def next_Q (WD: os.path, last_Q_no: int):
@@ -54,7 +54,7 @@ def make_coding_env (lqp):
         '#include <stdio.h>\n',
         '\n',
         '\n',
-        'void main () {\n',
+        'void main (){\n',
         '    printf ("Hello World!\\n");\n',
         '}\n'
     ]
