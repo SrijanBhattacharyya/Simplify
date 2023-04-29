@@ -51,6 +51,9 @@ def make_coding_env (lqp):
     optFile = os.path.join (lqp, files_to_keep [1])
 
     sample_code = [
+        '// Write the question here.',
+        '\n',
+        '\n',
         '#include <stdio.h>\n',
         '\n',
         '\n',
